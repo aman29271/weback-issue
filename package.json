@@ -1,0 +1,16 @@
+{
+  "name": "webpack-issue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:aman29271/webpack-issue.git",
+  "author": "Aman Kumar <aman29271@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "with:stats": "webpack-cli --stats verbose",
+    "without:stats": "webpack-cli "
+  },
+  "dependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
